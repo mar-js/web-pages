@@ -14,13 +14,16 @@ export const WebPages = (): JSX.Element => (
         <h2 className="text-2xl font-bold mb-4">Páginas</h2>
         <p className="text-sm text-gray-600 mb-6">Haz click en una página para ver sus proyectos freelance.</p>
         <ul className="grid gap-4">
-          {routes.map(p => (
-            <li key={p.name}>
-              <Link href={p.path} className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition">
-                <h3 className="text-lg font-semibold text-indigo-600">{p.name}</h3>
-              </Link>
-            </li>
-          ))}
+          {routes
+            .filter(r => r.path !== "*" && r.path !== "/")
+            .map(route => (
+              <li key={route.name}>
+                <Link href={route.path} className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition">
+                  <h3 className="text-lg font-semibold text-indigo-600">{route.name}</h3>
+                </Link>
+              </li>
+            ))
+          }
         </ul>
       </section>
     </main>
