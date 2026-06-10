@@ -1,6 +1,8 @@
+import type { JSX } from "react";
+
 export type AppRoute = {
   path: string;
   name: string;
-  element: React.FC<() => React.JSX.Element>;
+  element: JSX.Element;
   exact?: boolean;
 };
