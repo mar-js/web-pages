@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --color-huddle-purple-700: hsl(257, 40%, 49%);
+  --color-huddle-magenta-400: hsl(300, 69%, 71%);
+}
