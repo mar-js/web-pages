@@ -1,3 +1,4 @@
+export { Button } from "./Button";
 export { Description } from "./Description";
 export { Hero } from "./Hero";
 export { Image } from "./Image";
