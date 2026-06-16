@@ -11,7 +11,7 @@ export const Image = ({
 
 	useEffect(() => {
 		// Importación dinámica desde src/assets/
-		import(`/src/assets/${path}`)
+		import(`../../../assets/${path}`)
 			.then((image) => {
 				setImageSrc(image.default);
 			})
