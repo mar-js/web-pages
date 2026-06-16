@@ -10,8 +10,8 @@ export const Image = ({
 	const [error, setError] = useState(false);
 
 	useEffect(() => {
-		// Importación dinámica desde src/assets/
-		import(`../../../assets/${path}`)
+		// Importación dinámica desde src/public/assets/
+		import(`/public/assets/${path}`)
 			.then((image) => {
 				setImageSrc(image.default);
 			})
