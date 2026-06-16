@@ -4,3 +4,7 @@
   --color-huddle-purple-700: hsl(257, 40%, 49%);
   --color-huddle-magenta-400: hsl(300, 69%, 71%);
 }
+
+.layout {
+  @apply mx-auto max-w-7xl p-10 sm:p-14 md:p-20;
+}
