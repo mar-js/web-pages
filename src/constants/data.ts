@@ -6,7 +6,11 @@ export const ICONS_HUDDLE_LANDING_PAGE: string[] = [
 	"huddle-landing-page/instagram.svg",
 ];
 
-export const DATA_LINKS: string[] = ["Features", "Team", "Sign In"];
+export const DATA_LINKS_FYLO_DARK_LANDING_PAGE: string[] = [
+	"Features",
+	"Team",
+	"Sign In",
+];
 
 export const DATA_SERVICE_FYLO_DARK_LANDING_PAGE: DataServiceFyloDarkLandingPage[] =
 	[
