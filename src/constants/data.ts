@@ -6,6 +6,9 @@ export const ICONS_HUDDLE_LANDING_PAGE: string[] = [
 	"huddle-landing-page/instagram.svg",
 ];
 
+export const IMG_HERO_HUDDLE_LANDING_PAGE: string =
+	"huddle-landing-page/illustration-mockups.svg";
+
 export const DATA_LINKS_FYLO_DARK_LANDING_PAGE: string[] = [
 	"Features",
 	"Team",
