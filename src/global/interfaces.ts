@@ -12,3 +12,9 @@ export interface ImageComponent {
 	alt: string;
 	className?: string;
 }
+
+export interface DataServiceFyloDarkLandingPage {
+	img: string;
+	title: string;
+	description: string;
+}
