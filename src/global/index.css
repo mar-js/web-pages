@@ -3,6 +3,13 @@
 @theme {
   --color-huddle-purple-700: hsl(257, 40%, 49%);
   --color-huddle-magenta-400: hsl(300, 69%, 71%);
+  --color-fylo-dark-navy-850: hsl(217, 28%, 15%);
+  --color-fylo-dark-navy-900: hsl(218, 28%, 13%);
+  --color-fylo-dark-navy-950: hsl(216, 53%, 9%);
+  --color-fylo-dark-navy-800: hsl(219, 30%, 18%);
+  --color-fylo-dark-teal-200: hsl(176, 68%, 64%);
+  --color-fylo-dark-cyan-500: hsl(198, 60%, 50%);
+  --color-fylo-dark-red-500: hsl(0, 100%, 63%);
 }
 
 .layout {
