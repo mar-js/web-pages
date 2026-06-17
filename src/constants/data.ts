@@ -9,6 +9,9 @@ export const ICONS_HUDDLE_LANDING_PAGE: string[] = [
 export const IMG_HERO_HUDDLE_LANDING_PAGE: string =
 	"huddle-landing-page/illustration-mockups.svg";
 
+export const IMG_HERO_FYLO_DARK_LANDING_PAGE: string =
+	"fylo-dark-landing-page/illustration-intro.png";
+
 export const DATA_LINKS_FYLO_DARK_LANDING_PAGE: string[] = [
 	"Features",
 	"Team",

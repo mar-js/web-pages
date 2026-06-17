@@ -1,11 +1,12 @@
 import type { JSX } from "react";
+import { IMG_HERO_FYLO_DARK_LANDING_PAGE } from "../../../constants/data";
 import { Image } from "./Image";
 
 export const Hero = (): JSX.Element => (
 	<article className="flex flex-col justify-center items-center gap-10 text-white text-center">
 		<Image
 			className="min-w-60"
-			path="fylo-dark-landing-page/illustration-intro.png"
+			path={IMG_HERO_FYLO_DARK_LANDING_PAGE}
 			alt="Hero"
 		/>
 		<h2 className="font-semibold text-4xl">
