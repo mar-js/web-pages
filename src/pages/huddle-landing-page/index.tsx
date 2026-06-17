@@ -4,7 +4,7 @@ import { Footer, Header, Main, Section } from "./layouts";
 
 export const HuddleLandingPage = (): JSX.Element => (
 	<div className="w-full min-h-screen bg-huddle-purple-700 bg-[url('/assets/huddle-landing-page/bg-mobile.svg')] bg-center bg-cover xl:bg-[url('/assets/huddle-landing-page/bg-desktop.svg')]">
-		<div className="layout">
+		<div className="layout layout-container">
 			<Header>
 				<Logo />
 			</Header>
