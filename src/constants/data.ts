@@ -27,6 +27,9 @@ export const IMG_WORK_FYLO_DARK_LANDING_PAGE: string =
 export const IMG_WORK_ARROW_FYLO_DARK_LANDING_PAGE: string =
 	"fylo-dark-landing-page/icon-arrow.svg";
 
+export const IMG_WORK_QUOTE_FYLO_DARK_LANDING_PAGE: string =
+	"fylo-dark-landing-page/bg-quotes.png";
+
 export const DATA_LINKS_FYLO_DARK_LANDING_PAGE: string[] = [
 	"Features",
 	"Team",
