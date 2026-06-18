@@ -1,3 +1,4 @@
+export { Ceo } from "./Ceo";
 export { Hero } from "./Hero";
 export { Image } from "./Image";
 export { Links } from "./Links";
