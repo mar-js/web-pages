@@ -5,7 +5,7 @@ import { Image } from "./Image";
 export const Hero = (): JSX.Element => (
 	<article className="flex flex-col justify-center items-center gap-10 text-white text-center">
 		<Image
-			className="min-w-60"
+			className="max-w-130"
 			path={IMG_HERO_FYLO_DARK_LANDING_PAGE}
 			alt="Hero"
 		/>
