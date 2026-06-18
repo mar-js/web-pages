@@ -6,13 +6,13 @@ import {
 import { Image } from "./Image";
 
 export const Work = (): JSX.Element => (
-	<div className="flex flex-wrap justify-between items-center gap-15 text-white">
+	<div className="flex flex-wrap justify-center items-center gap-15 text-white">
 		<Image
 			path={IMG_WORK_FYLO_DARK_LANDING_PAGE}
 			alt="Stay productive"
-			className="min-w-60"
+			className="max-w-100"
 		/>
-		<div className="max-w-160 flex flex-col gap-5">
+		<div className="max-w-150 flex flex-col gap-5">
 			<h4 className="text-2xl font-semibold md:text-4xl">
 				Stay productive, wherever you are
 			</h4>
