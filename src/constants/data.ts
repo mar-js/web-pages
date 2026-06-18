@@ -1,4 +1,7 @@
-import type { DataServiceFyloDarkLandingPage } from "../global/interfaces";
+import type {
+	DataCeoFyloDarkLandingPage,
+	DataServiceFyloDarkLandingPage,
+} from "../global/interfaces";
 
 export const IMG_LOGO_HUDDLE_LANDING_PAGE: string =
 	"huddle-landing-page/logo.svg";
@@ -57,3 +60,27 @@ export const DATA_SERVICES_FYLO_DARK_LANDING_PAGE: DataServiceFyloDarkLandingPag
 				"Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.",
 		},
 	];
+
+export const DATA_CEO_FYLO_DARK_LANDING_PAGE: DataCeoFyloDarkLandingPage[] = [
+	{
+		img: "fylo-dark-landing-page/profile-1.jpg",
+		title: "Satish Patel",
+		subtitle: "Founder & CEO, Huddle",
+		description:
+			"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine",
+	},
+	{
+		img: "fylo-dark-landing-page/profile-2.jpg",
+		title: "Bruce McKenzie",
+		subtitle: "Founder & CEO, Huddle",
+		description:
+			"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine",
+	},
+	{
+		img: "fylo-dark-landing-page/profile-3.jpg",
+		title: "Iva Boyd",
+		subtitle: "Founder & CEO, Huddle",
+		description:
+			"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine",
+	},
+];
