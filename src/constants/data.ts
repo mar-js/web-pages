@@ -30,7 +30,7 @@ export const DATA_LINKS_FYLO_DARK_LANDING_PAGE: string[] = [
 	"Sign In",
 ];
 
-export const DATA_SERVICE_FYLO_DARK_LANDING_PAGE: DataServiceFyloDarkLandingPage[] =
+export const DATA_SERVICES_FYLO_DARK_LANDING_PAGE: DataServiceFyloDarkLandingPage[] =
 	[
 		{
 			img: "fylo-dark-landing-page/icon-access-anywhere.svg",

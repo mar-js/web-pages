@@ -1,10 +1,10 @@
 import type { JSX } from "react";
-import { DATA_SERVICE_FYLO_DARK_LANDING_PAGE } from "../../../constants/data";
+import { DATA_SERVICES_FYLO_DARK_LANDING_PAGE } from "../../../constants/data";
 import { Image } from "./Image";
 
 export const Services = (): JSX.Element => (
 	<div className="flex justify-center items-center flex-wrap gap-25 py-25">
-		{DATA_SERVICE_FYLO_DARK_LANDING_PAGE.map((service) => (
+		{DATA_SERVICES_FYLO_DARK_LANDING_PAGE.map((service) => (
 			<article
 				key={service.title}
 				className="max-w-105 flex flex-col justify-center items-center gap-4 text-center text-white"
