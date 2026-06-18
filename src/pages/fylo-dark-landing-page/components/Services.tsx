@@ -2,7 +2,7 @@ import type { JSX } from "react";
 import { DATA_SERVICE_FYLO_DARK_LANDING_PAGE } from "../../../constants/data";
 import { Image } from "./Image";
 
-export const Service = (): JSX.Element => (
+export const Services = (): JSX.Element => (
 	<div className="flex justify-center items-center flex-wrap gap-25 py-25">
 		{DATA_SERVICE_FYLO_DARK_LANDING_PAGE.map((service) => (
 			<article
