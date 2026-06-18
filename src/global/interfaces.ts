@@ -18,3 +18,10 @@ export interface DataServiceFyloDarkLandingPage {
 	title: string;
 	description: string;
 }
+
+export interface DataCeoFyloDarkLandingPage {
+	img: string;
+	title: string;
+	subtitle: string;
+	description: string;
+}
