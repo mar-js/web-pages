@@ -10,9 +10,9 @@ export const IMG_HERO_HUDDLE_LANDING_PAGE: string =
 	"huddle-landing-page/illustration-mockups.svg";
 
 export const ICONS_HUDDLE_LANDING_PAGE: string[] = [
-	"huddle-landing-page/facebook.svg",
-	"huddle-landing-page/x.svg",
-	"huddle-landing-page/instagram.svg",
+	"/facebook.svg",
+	"/x.svg",
+	"/instagram.svg",
 ];
 
 export const IMG_HERO_FYLO_DARK_LANDING_PAGE: string =
