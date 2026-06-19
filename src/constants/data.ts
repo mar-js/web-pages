@@ -9,7 +9,7 @@ export const IMG_LOGO_HUDDLE_LANDING_PAGE: string =
 export const IMG_HERO_HUDDLE_LANDING_PAGE: string =
 	"huddle-landing-page/illustration-mockups.svg";
 
-export const ICONS_HUDDLE_LANDING_PAGE: string[] = [
+export const SOCIAL_MEDIA_ICONS: string[] = [
 	"/facebook.svg",
 	"/x.svg",
 	"/instagram.svg",
