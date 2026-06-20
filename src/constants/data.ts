@@ -87,3 +87,8 @@ export const DATA_CEO_FYLO_DARK_LANDING_PAGE: DataCeoFyloDarkLandingPage[] = [
 			"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine",
 	},
 ];
+
+export const DATA_LINKS_PAGES: Array<string[]> = [
+	["About Us", "Jobs", "Press", "Blog"],
+	["Contact Us", "Terms", "Privacy"],
+];
