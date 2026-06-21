@@ -25,3 +25,8 @@ export interface DataCeoFyloDarkLandingPage {
 	subtitle: string;
 	description: string;
 }
+
+export interface DataContactFyloDarkLandingPage {
+	icon: string;
+	text: string;
+}
