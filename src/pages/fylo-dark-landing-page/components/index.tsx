@@ -4,6 +4,7 @@ export { Hero } from "./Hero";
 export { Icons } from "./Icons";
 export { Image } from "./Image";
 export { Links } from "./Links";
+export { LinksPages } from "./LinksPages";
 export { Logo } from "./Logo";
 export { Services } from "./Services";
 export { Work } from "./Work";
