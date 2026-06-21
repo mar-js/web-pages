@@ -1,5 +1,6 @@
 import type {
 	DataCeoFyloDarkLandingPage,
+	DataContactFyloDarkLandingPage,
 	DataServiceFyloDarkLandingPage,
 } from "../global/interfaces";
 
@@ -92,3 +93,19 @@ export const DATA_LINKS_PAGES_FYLO_DARK_LANDING_PAGE: Array<string[]> = [
 	["About Us", "Jobs", "Press", "Blog"],
 	["Contact Us", "Terms", "Privacy"],
 ];
+
+export const DATA_CONTACT_FYLO_DARK_LANDING_PAGE: DataContactFyloDarkLandingPage[] =
+	[
+		{
+			icon: "/location.svg",
+			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elitm sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		},
+		{
+			icon: "/phone.svg",
+			text: "+1-543-123-4567",
+		},
+		{
+			icon: "/email.svg",
+			text: "example@fylo.com",
+		},
+	];
