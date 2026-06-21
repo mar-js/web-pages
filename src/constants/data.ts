@@ -88,7 +88,7 @@ export const DATA_CEO_FYLO_DARK_LANDING_PAGE: DataCeoFyloDarkLandingPage[] = [
 	},
 ];
 
-export const DATA_LINKS_PAGES: Array<string[]> = [
+export const DATA_LINKS_PAGES_FYLO_DARK_LANDING_PAGE: Array<string[]> = [
 	["About Us", "Jobs", "Press", "Blog"],
 	["Contact Us", "Terms", "Privacy"],
 ];
