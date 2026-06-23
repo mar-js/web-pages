@@ -1,4 +1,5 @@
 export { Ceo } from "./Ceo";
+export { Contact } from "./Contact";
 export { Form } from "./Form";
 export { Hero } from "./Hero";
 export { Icons } from "./Icons";
