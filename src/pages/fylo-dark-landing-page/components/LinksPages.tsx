@@ -5,7 +5,7 @@ const DATA_LINKS_PAGE_ONE = DATA_LINKS_PAGES_FYLO_DARK_LANDING_PAGE[0];
 const DATA_LINKS_PAGE_TWO = DATA_LINKS_PAGES_FYLO_DARK_LANDING_PAGE[1];
 
 export const LinksPages = (): JSX.Element => (
-	<div className="flex flex-col md:flex-row gap-10">
+	<>
 		<ul className="flex flex-col gap-2">
 			{DATA_LINKS_PAGE_ONE.map((link) => (
 				<li
@@ -30,5 +30,5 @@ export const LinksPages = (): JSX.Element => (
 				</li>
 			))}
 		</ul>
-	</div>
+	</>
 );
