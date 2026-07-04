@@ -1,6 +1,6 @@
+import { Image } from "@global/components";
 import type { JSX } from "react";
 import { IMG_HERO_FYLO_DARK_LANDING_PAGE } from "../../../constants/data";
-import { Image } from "./Image";
 
 export const Hero = (): JSX.Element => (
 	<article className="flex flex-col justify-center items-center gap-10 text-white text-center">

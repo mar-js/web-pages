@@ -1,6 +1,6 @@
+import { Image } from "@global/components";
 import type { JSX } from "react";
 import { DATA_SERVICES_FYLO_DARK_LANDING_PAGE } from "../../../constants/data";
-import { Image } from "./Image";
 
 export const Services = (): JSX.Element => (
 	<div className="flex justify-center items-center flex-wrap gap-25 py-25">

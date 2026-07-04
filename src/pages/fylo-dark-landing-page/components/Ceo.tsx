@@ -1,9 +1,9 @@
+import { Image } from "@global/components";
 import type { JSX } from "react";
 import {
 	DATA_CEO_FYLO_DARK_LANDING_PAGE,
 	IMG_WORK_QUOTE_FYLO_DARK_LANDING_PAGE,
 } from "../../../constants/data";
-import { Image } from "./Image";
 
 export const Ceo = (): JSX.Element => (
 	<div className="w-full flex flex-wrap justify-center items-center gap-10 text-white py-28">

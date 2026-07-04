@@ -1,9 +1,9 @@
+import { Image } from "@global/components";
 import type { JSX } from "react";
 import {
 	IMG_WORK_ARROW_FYLO_DARK_LANDING_PAGE,
 	IMG_WORK_FYLO_DARK_LANDING_PAGE,
 } from "../../../constants/data";
-import { Image } from "./Image";
 
 export const Work = (): JSX.Element => (
 	<div className="flex flex-wrap justify-center items-center gap-15 text-white">

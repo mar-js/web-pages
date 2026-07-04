@@ -1,6 +1,6 @@
+import { Image } from "@global/components";
 import type { JSX } from "react";
 import { SOCIAL_MEDIA_ICONS } from "../../../constants/data";
-import { Image } from "./Image";
 
 export const Icons = (): JSX.Element => (
 	<ul className="h-fit flex justify-center xl:justify-start gap-5">

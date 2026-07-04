@@ -1,6 +1,6 @@
+import { Image } from "@global/components";
 import type { JSX } from "react";
 import { DATA_CONTACT_FYLO_DARK_LANDING_PAGE } from "../../../constants/data";
-import { Image } from "./Image";
 
 export const Contact = (): JSX.Element => (
 	<ul className="max-w-80">
