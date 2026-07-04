@@ -1,6 +1,6 @@
+import { Image } from "@global/components";
 import type { JSX } from "react";
 import { IMG_HERO_HUDDLE_LANDING_PAGE } from "../../../constants/data";
-import { Image } from "./Image";
 
 export const Hero = (): JSX.Element => (
 	<Image
