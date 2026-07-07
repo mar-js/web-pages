@@ -3,6 +3,7 @@ import {
 	FyloDarkLandingPage,
 	HuddleLandingPage,
 	NotFoundPage,
+	PingComingSoonLandingPage,
 	WebPages,
 } from "./pages";
 
@@ -18,6 +19,12 @@ export const routes: AppRoute[] = [
 		path: "/pages/fylo-dark-landing-page",
 		name: "Fylo Dark Landing Page",
 		element: <FyloDarkLandingPage />,
+		exact: true,
+	},
+	{
+		path: "/pages/ping-coming-soon-landing-page",
+		name: "Ping Coming Soon Landing Page",
+		element: <PingComingSoonLandingPage />,
 		exact: true,
 	},
 	{ path: "*", name: "Not Found", element: <NotFoundPage />, exact: true },
