@@ -14,9 +14,9 @@ export const IMG_HERO_HUDDLE_LANDING_PAGE: string =
 	"huddle-landing-page/illustration-mockups.svg";
 
 export const SOCIAL_MEDIA_ICONS: string[] = [
-	"/facebook.svg",
-	"/x.svg",
-	"/instagram.svg",
+	"facebook.svg",
+	"x.svg",
+	"instagram.svg",
 ];
 
 export const IMG_HERO_FYLO_DARK_LANDING_PAGE: string =
@@ -100,15 +100,15 @@ export const DATA_LINKS_PAGES_FYLO_DARK_LANDING_PAGE: Array<string[]> = [
 export const DATA_CONTACT_FYLO_DARK_LANDING_PAGE: DataContactFyloDarkLandingPage[] =
 	[
 		{
-			icon: "/location.svg",
+			icon: "location.svg",
 			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elitm sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 		},
 		{
-			icon: "/phone.svg",
+			icon: "phone.svg",
 			text: "+1-543-123-4567",
 		},
 		{
-			icon: "/email.svg",
+			icon: "email.svg",
 			text: "example@fylo.com",
 		},
 	];
