@@ -4,6 +4,9 @@ import type {
 	DataServiceFyloDarkLandingPage,
 } from "../global/interfaces";
 
+export const IMG_HERO_PING_COMING_SOON_LANDING_PAGE: string =
+	"ping-coming-soon-landing-page/illustration-dashboard.png";
+
 export const IMG_LOGO_HUDDLE_LANDING_PAGE: string =
 	"huddle-landing-page/logo.svg";
 
