@@ -1,5 +1,6 @@
 import type { AppRoute } from "./global/interfaces";
 import {
+	ClipboardLandingPage,
 	FyloDarkLandingPage,
 	HuddleLandingPage,
 	NotFoundPage,
@@ -25,6 +26,12 @@ export const routes: AppRoute[] = [
 		path: "/pages/ping-coming-soon-landing-page",
 		name: "Ping Coming Soon Landing Page",
 		element: <PingComingSoonLandingPage />,
+		exact: true,
+	},
+	{
+		path: "/pages/clipboard-landing-page",
+		name: "Clipboard Landing Page",
+		element: <ClipboardLandingPage />,
 		exact: true,
 	},
 	{ path: "*", name: "Not Found", element: <NotFoundPage />, exact: true },
