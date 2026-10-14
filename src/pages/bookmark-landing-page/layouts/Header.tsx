@@ -11,24 +11,33 @@ export const Header = (): JSX.Element => {
 	}, []);
 
 	return (
-		<header className="mx-auto flex h-[100px] w-[calc(100%_-_48px)] max-w-[1110px] items-center justify-between">
-			<a href="#top" aria-label="Bookmark home">
-				<img className="bm-logo" src={`${ASSET_ROOT_BOOKMARK_LANDING_PAGE}/logo-bookmark.svg`} alt="Bookmark" />
+		<header className="relative z-30 mx-auto flex h-16 w-[calc(100%_-_48px)] max-w-[1110px] items-center justify-between sm:h-20">
+			<a className="relative z-30" href="#top" aria-label="Bookmark home">
+				<img className={menuOpen ? "brightness-0 invert" : ""} src={`${ASSET_ROOT_BOOKMARK_LANDING_PAGE}/logo-bookmark.svg`} alt="Bookmark" />
 			</a>
 			<button
-				className="bm-menu-toggle rounded border-0 bg-transparent p-2 md:hidden"
+				className="relative z-30 rounded border-0 bg-transparent p-2 md:hidden"
 				type="button"
 				aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
 				aria-expanded={menuOpen}
+				aria-controls="bookmark-navigation"
 				onClick={() => setMenuOpen((open) => !open)}
 			>
-				<img src={`${ASSET_ROOT_BOOKMARK_LANDING_PAGE}/${menuOpen ? "icon-close.svg" : "icon-hamburger.svg"}`} alt="" />
+				<img className={menuOpen ? "brightness-0 invert" : ""} src={`${ASSET_ROOT_BOOKMARK_LANDING_PAGE}/${menuOpen ? "icon-close.svg" : "icon-hamburger.svg"}`} alt="" />
 			</button>
-			<nav className={`${menuOpen ? "absolute left-6 right-6 top-[88px] flex flex-col rounded bg-white p-5 shadow-xl" : "hidden"} bm-nav z-10 items-center gap-8 text-[13px] uppercase tracking-[1px] md:static md:flex md:flex-row md:bg-transparent md:p-0 md:shadow-none`} aria-label="Main navigation">
-				<a className="text-[#252b46] no-underline hover:text-[#fa5757]" href="#features">Features</a>
-				<a className="text-[#252b46] no-underline hover:text-[#fa5757]" href="#extensions">Pricing</a>
-				<a className="text-[#252b46] no-underline hover:text-[#fa5757]" href="#contact">Contact</a>
-				<a className="bm-login rounded border-2 border-[#fa5757] bg-[#fa5757] px-[31px] py-[11px] font-medium text-white shadow-md hover:bg-white hover:text-[#fa5757]" href="#contact">Login</a>
+			<nav
+				id="bookmark-navigation"
+				className={`${menuOpen ? "fixed inset-0 flex flex-col bg-[#252b46]/95 px-8 pt-24 text-white" : "hidden"} z-20 items-stretch text-center text-[18px] uppercase tracking-[3px] md:static md:flex md:flex-row md:items-center md:gap-8 md:bg-transparent md:p-0 md:text-[13px] md:tracking-[1px] md:text-[#252b46]`}
+				aria-label="Main navigation"
+			>
+				<a className="border-t border-white/20 py-5 text-white no-underline hover:text-[#fa5757] md:border-0 md:py-0 md:text-[#252b46]" href="#features" onClick={() => setMenuOpen(false)}>Features</a>
+				<a className="border-t border-white/20 py-5 text-white no-underline hover:text-[#fa5757] md:border-0 md:py-0 md:text-[#252b46]" href="#extensions" onClick={() => setMenuOpen(false)}>Pricing</a>
+				<a className="border-y border-white/20 py-5 text-white no-underline hover:text-[#fa5757] md:border-0 md:py-0 md:text-[#252b46]" href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+				<a className="mt-5 rounded border-2 border-white py-3 font-medium text-white no-underline hover:bg-white hover:text-[#252b46] md:mt-0 md:border-[#fa5757] md:bg-[#fa5757] md:px-[31px] md:py-[11px] md:shadow-md md:hover:bg-white md:hover:text-[#fa5757]" href="#contact" onClick={() => setMenuOpen(false)}>Login</a>
+				<div className="mt-auto flex justify-center gap-10 pb-8 md:hidden">
+					<a href="#contact" aria-label="Facebook"><img className="brightness-0 invert" src={`${ASSET_ROOT_BOOKMARK_LANDING_PAGE}/icon-facebook.svg`} alt="" /></a>
+					<a href="#contact" aria-label="Twitter"><img className="brightness-0 invert" src={`${ASSET_ROOT_BOOKMARK_LANDING_PAGE}/icon-twitter.svg`} alt="" /></a>
+				</div>
 			</nav>
 		</header>
 	);

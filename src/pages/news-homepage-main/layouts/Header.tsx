@@ -14,13 +14,13 @@ export const Header = () => {
 	}, []);
 
 	return (
-		<header className="news-header relative z-20 flex h-[100px] items-center justify-between">
+		<header className="relative z-20 mt-7 flex h-[60px] items-center justify-between md:mb-[54px] md:mt-[88px] md:h-[42px]">
 			<a href="#top" aria-label="W. home">
-				<img src={`${ASSET_ROOT_NEWS}/logo.svg`} className="news-logo w-12 sm:w-[65px]" alt="W." />
+				<img src={`${ASSET_ROOT_NEWS}/logo.svg`} className="w-12 sm:w-[65px]" alt="W." />
 			</a>
 			<button
 				type="button"
-				className="news-menu-toggle relative z-30 border-0 bg-transparent p-2 md:hidden"
+				className="relative z-30 border-0 bg-transparent p-2 md:hidden"
 				aria-label={menuOpen ? "Close menu" : "Open menu"}
 				aria-expanded={menuOpen}
 				onClick={() => setMenuOpen(!menuOpen)}
@@ -30,7 +30,7 @@ export const Header = () => {
 			{menuOpen && (
 				<button
 					type="button"
-					className="news-backdrop fixed inset-0 z-10 border-0 bg-black/50 md:hidden"
+					className="fixed inset-0 z-10 border-0 bg-black/50 md:hidden"
 					aria-label="Close menu"
 					onClick={() => setMenuOpen(false)}
 				/>
