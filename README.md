@@ -1,75 +1,91 @@
-# React + TypeScript + Vite
+# Web Pages
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web Pages es un sitio de presentación de proyectos frontend. Reúne distintas páginas web independientes en una sola aplicación para mostrar ejemplos de maquetado, diseño responsive y desarrollo de interfaces.
 
-Currently, two official plugins are available:
+Cada proyecto tiene su propia ruta y conserva una estructura modular de componentes y layouts. Las imágenes, iconos y demás archivos públicos que utiliza la aplicación están en `public/assets/`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Proyectos
 
-## React Compiler
+Desde la página de inicio (`/`) se puede acceder a estos ejemplos:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+| Proyecto | Ruta |
+| --- | --- |
+| Base Apparel Coming Soon | `/pages/base-apparel-coming-soon` |
+| Bookmark Landing Page | `/pages/bookmark-landing-page` |
+| Clipboard Landing Page | `/pages/clipboard-landing-page` |
+| Crowdfunding Product Page | `/pages/crowdfunding-product-page` |
+| Digital Bank Landing Page | `/pages/digitalbank-landing-page` |
+| Fylo Dark Landing Page | `/pages/fylo-dark-landing-page` |
+| Grid Landing Page | `/pages/grid-landing-page` |
+| Hotel Booking Confirmation Page | `/pages/hotel-booking-confirmation-page` |
+| Huddle Landing Page | `/pages/huddle-landing-page` |
+| Insure Landing Page | `/pages/insure-landing-page` |
+| Loopstudios Landing Page | `/pages/loopstudios-landing-page` |
+| Manage Landing Page | `/pages/manage-landing-page` |
+| News Homepage | `/pages/news-homepage` |
+| Notifications Page | `/pages/notifications-page` |
+| Ping Coming Soon Landing Page | `/pages/ping-coming-soon-landing-page` |
+| Recipe Page | `/pages/recipe-page` |
+| Room Homepage | `/pages/room-homepage` |
+| Space Tourism Website | `/pages/space-tourism-website` |
+| URL Shortening API | `/pages/url-shortening-api` |
 
-Note: This will impact Vite dev & build performances.
+Las páginas incluyen interacciones de interfaz como menús responsive, formularios, pestañas, acordeones, controles de navegación y estados de confirmación. Son demostraciones frontend; las acciones que requieren un servicio externo no se presentan como operaciones reales de backend.
 
-## Expanding the ESLint configuration
+## Tecnologías
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS 4
+- Wouter para el enrutamiento
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Requisitos
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Node.js y npm, o Bun.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Desarrollo
+
+Instala las dependencias:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+O, si usas Bun:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+bun install
+```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Inicia el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Con Bun:
+
+```bash
+bun run dev
+```
+
+## Comandos
+
+| Comando | Descripción |
+| --- | --- |
+| `npm run dev` | Inicia Vite en modo desarrollo. |
+| `npm run build` | Ejecuta la verificación de TypeScript y genera la compilación de producción. |
+| `npm run preview` | Sirve localmente la compilación para previsualizarla. |
+| `npm run lint` | Ejecuta ESLint sobre el proyecto. |
+
+## Estructura
+
+```text
+public/assets/  Imágenes, iconos y otros recursos usados por las páginas
+src/
+  constants/    Datos y rutas de assets compartidos por las páginas
+  global/       Estilos, interfaces y componentes globales
+  pages/        Una carpeta por página, organizada en components/ y layouts/
+  routes.tsx    Registro de rutas de la aplicación
 ```
