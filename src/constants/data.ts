@@ -2,6 +2,8 @@ import type {
 	DataCeoFyloDarkLandingPage,
 	DataContactFyloDarkLandingPage,
 	DataServiceFyloDarkLandingPage,
+	DataSnippetClipboardLandingPage,
+	DataToolClipboardLandingPage,
 } from "../global/interfaces";
 
 export const IMG_HERO_PING_COMING_SOON_LANDING_PAGE: string =
@@ -112,3 +114,73 @@ export const DATA_CONTACT_FYLO_DARK_LANDING_PAGE: DataContactFyloDarkLandingPage
 			text: "example@fylo.com",
 		},
 	];
+
+export const IMG_LOGO_CLIPBOARD_LANDING_PAGE: string =
+	"clipboard-landing-page/logo.svg";
+
+export const IMG_COMPUTER_CLIPBOARD_LANDING_PAGE: string =
+	"clipboard-landing-page/image-computer.png";
+
+export const IMG_DEVICES_CLIPBOARD_LANDING_PAGE: string =
+	"clipboard-landing-page/image-devices.png";
+
+export const DATA_SNIPPETS_CLIPBOARD_LANDING_PAGE: DataSnippetClipboardLandingPage[] =
+	[
+		{
+			title: "Quick Search",
+			description:
+				"Easily search your snippets by content, category, web address, application, and more.",
+		},
+		{
+			title: "iCloud Sync",
+			description:
+				"Instantly saves and syncs snippets across all your devices.",
+		},
+		{
+			title: "Complete History",
+			description:
+				"Retrieve any snippets from the first moment you started using the app.",
+		},
+	];
+
+export const DATA_TOOLS_CLIPBOARD_LANDING_PAGE: DataToolClipboardLandingPage[] =
+	[
+		{
+			img: "clipboard-landing-page/icon-blacklist.svg",
+			title: "Create blacklists",
+			description:
+				"Ensure sensitive information never makes its way to your clipboard by excluding certain sources.",
+		},
+		{
+			img: "clipboard-landing-page/icon-text.svg",
+			title: "Plain text snippets",
+			description:
+				"Remove unwanted formatting from copied text for a consistent look.",
+		},
+		{
+			img: "clipboard-landing-page/icon-preview.svg",
+			title: "Sneak preview",
+			description:
+				"Quick preview of all snippets on your Clipboard for easy access.",
+		},
+	];
+
+export const DATA_COMPANIES_CLIPBOARD_LANDING_PAGE: string[] = [
+	"clipboard-landing-page/logo-google.png",
+	"clipboard-landing-page/logo-ibm.png",
+	"clipboard-landing-page/logo-microsoft.png",
+	"clipboard-landing-page/logo-hp.png",
+	"clipboard-landing-page/logo-vector-graphics.png",
+];
+
+export const DATA_LINKS_PAGES_CLIPBOARD_LANDING_PAGE: Array<string[]> = [
+	["FAQs", "Contact Us"],
+	["Privacy Policy", "Press Kit"],
+	["Install Guide"],
+];
+
+export const DATA_SOCIAL_CLIPBOARD_LANDING_PAGE: string[] = [
+	"clipboard-landing-page/icon-facebook.svg",
+	"clipboard-landing-page/icon-twitter.svg",
+	"clipboard-landing-page/icon-instagram.svg",
+];
