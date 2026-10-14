@@ -15,16 +15,20 @@
   --color-ping-coming-soon-red-400: hsl(354, 100%, 66%);
   --color-ping-coming-soon-gray-400: hsl(0, 0%, 59%);
   --color-ping-coming-soon-blue-950: hsl(209, 33%, 12%);
+  --color-clipboard-green-500: hsl(171, 66%, 44%);
+  --color-clipboard-blue-100: hsl(233, 100%, 69%);
+  --color-clipboard-gray-700: hsl(210, 10%, 33%);
+  --color-clipboard-gray-500: hsl(201, 11%, 66%);
 }
 
 .layout {
-  @apply mx-auto max-w-7xl;
+	@apply mx-auto max-w-7xl;
 }
 
 .layout-container {
-  @apply p-10 sm:p-14 md:p-20;
+	@apply p-10 sm:p-14 md:p-20;
 }
 
 .remove-layout-container {
-  @apply -m-10 sm:-m-14 md:-m-20;
+	@apply -m-10 sm:-m-14 md:-m-20;
 }
