@@ -1,5 +1,6 @@
 import type { AppRoute } from "./global/interfaces";
 import {
+	BaseApparelComingSoonPage,
 	ClipboardLandingPage,
 	FyloDarkLandingPage,
 	HuddleLandingPage,
@@ -10,6 +11,12 @@ import {
 
 export const routes: AppRoute[] = [
 	{ path: "/", name: "Home", element: <WebPages />, exact: true },
+	{
+		path: "/pages/base-apparel-coming-soon",
+		name: "Base Apparel Coming Soon",
+		element: <BaseApparelComingSoonPage />,
+		exact: true,
+	},
 	{
 		path: "/pages/huddle-landing-page",
 		name: "Huddle Landing Page",
