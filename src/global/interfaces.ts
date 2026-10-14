@@ -30,3 +30,14 @@ export interface DataContactFyloDarkLandingPage {
 	icon: string;
 	text: string;
 }
+
+export interface DataSnippetClipboardLandingPage {
+	title: string;
+	description: string;
+}
+
+export interface DataToolClipboardLandingPage {
+	img: string;
+	title: string;
+	description: string;
+}
