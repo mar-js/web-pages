@@ -184,3 +184,12 @@ export const DATA_SOCIAL_CLIPBOARD_LANDING_PAGE: string[] = [
 	"clipboard-landing-page/icon-twitter.svg",
 	"clipboard-landing-page/icon-instagram.svg",
 ];
+
+export const IMG_LOGO_BASE_APPAREL_COMING_SOON: string =
+	"base-apparel-coming-soon/logo.svg";
+
+export const IMG_HERO_BASE_APPAREL_COMING_SOON_MOBILE: string =
+	"base-apparel-coming-soon/hero-mobile.jpg";
+
+export const IMG_HERO_BASE_APPAREL_COMING_SOON_DESKTOP: string =
+	"base-apparel-coming-soon/hero-desktop.jpg";
