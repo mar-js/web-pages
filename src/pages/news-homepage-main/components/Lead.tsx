@@ -1,16 +1,16 @@
 import { ASSET_ROOT_NEWS } from "../../../constants/data";
 
 export const Lead = () => (
-	<section className="news-lead">
+	<section>
 		<picture>
 			<source media="(max-width: 700px)" srcSet={`${ASSET_ROOT_NEWS}/image-web-3-mobile.jpg`} />
 			<img
-				className="news-hero-image block aspect-[1.5] w-full object-cover md:aspect-[1.91]"
+				className="block aspect-[1.14] w-full object-cover md:aspect-[1.91]"
 				src={`${ASSET_ROOT_NEWS}/image-web-3-desktop.jpg`}
 				alt="Brightly colored geometric shapes"
 			/>
 		</picture>
-		<div className="news-lead-copy mt-6 grid gap-4 sm:grid-cols-2 sm:gap-8">
+		<div className="mt-6 grid gap-4 sm:grid-cols-2 sm:gap-8">
 			<h1 className="m-0 text-[40px] font-extrabold leading-[1] tracking-[-1px] sm:text-[56px]">The Bright Future of Web 3.0?</h1>
 			<div className="flex flex-col items-start">
 				<p className="m-0 text-[15px] leading-[1.7] text-[#5e607a]">

@@ -8,7 +8,7 @@ interface NotificationCardProps {
 
 export const NotificationCard = ({ notification, onToggle }: NotificationCardProps) => (
 	<article
-		className={`rounded-lg px-3 py-4 sm:px-[18px] ${notification.unread ? "bg-[#f7fafd]" : ""}`}
+		className={`rounded-lg px-4 py-4 sm:px-[18px] ${notification.unread ? "bg-[#f7fafd]" : ""}`}
 	>
 		<button
 			type="button"

@@ -1,9 +1,9 @@
 import { ASSET_ROOT_NEWS, DATA_NEWS_TOP_STORIES } from "../../../constants/data";
 
 export const TopStories = () => (
-	<section className="news-top-stories col-span-full mt-4 grid gap-8 py-8 sm:grid-cols-2 lg:grid-cols-3" id="top-stories" aria-label="Popular articles">
+	<section className="col-span-full grid gap-8 pt-[38px] pb-8 sm:grid-cols-2 lg:grid-cols-3" id="top-stories" aria-label="Popular articles">
 		{DATA_NEWS_TOP_STORIES.map((story) => (
-			<article className="news-top-story grid grid-cols-[100px_1fr] gap-5" key={story.number}>
+			<article className="grid grid-cols-[100px_1fr] gap-5" key={story.number}>
 				<img className="h-[127px] w-[100px] object-cover" src={`${ASSET_ROOT_NEWS}/${story.image}`} alt="" />
 				<div>
 					<span className="text-[32px] font-bold leading-none text-[#c5c6ce]">{story.number}</span>

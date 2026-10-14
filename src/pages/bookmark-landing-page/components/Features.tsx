@@ -10,27 +10,27 @@ export const Features = (): JSX.Element => {
 
 	return (
 		<section
-			className="bm-section px-0 py-16 text-center"
+			className="px-0 py-16 text-center"
 			id="features"
 			aria-labelledby="bm-features-title"
 		>
-			<div className="bm-wrap">
-				<div className="bm-section-intro">
-					<h2 id="bm-features-title">Features</h2>
-					<p>
+			<div className="mx-auto w-[calc(100%_-_48px)] max-w-[1110px]">
+				<div className="mx-auto mb-12 max-w-[550px]">
+					<h2 className="mb-4 text-2xl font-medium sm:text-[30px]" id="bm-features-title">Features</h2>
+					<p className="leading-[1.65] text-[#9194a1]">
 						Our aim is to make it quick and easy for you to access your
 						favourite websites. Your bookmarks sync between your devices so you
 						can access them on the go.
 					</p>
 				</div>
 				<div
-					className="bm-feature-tabs mx-auto flex max-w-182.5 flex-col border-t border-[#d9dbe2] sm:flex-row sm:border-t-0 sm:border-b"
+					className="mx-auto flex max-w-[730px] flex-col border-t border-[#d9dbe2] sm:flex-row sm:border-t-0 sm:border-b"
 					role="tablist"
 					aria-label="Bookmark features"
 				>
 					{DATA_BOOKMARK_FEATURES.map((item, index) => (
 						<button
-							className="bm-tab flex-1 cursor-pointer border-0 border-b border-[#d9dbe2] bg-transparent px-2.5 py-4.25 text-[15px] text-[#626575] hover:text-[#fa5757] aria-selected:border-b-4 aria-selected:border-[#fa5757] sm:border-b-4 sm:px-3 sm:py-4.5 sm:text-base"
+							className="flex-1 cursor-pointer border-0 border-b border-[#d9dbe2] bg-transparent px-2.5 py-4 text-[15px] text-[#626575] hover:text-[#fa5757] aria-selected:border-b-4 aria-selected:border-[#fa5757] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5267df] sm:border-b-4 sm:px-3 sm:py-4 sm:text-base"
 							key={item.tab}
 							type="button"
 							role="tab"
@@ -44,18 +44,19 @@ export const Features = (): JSX.Element => {
 					))}
 				</div>
 				<div
-					className="bm-feature mx-auto mt-12 grid min-h-90 grid-cols-1 items-center gap-12 text-left sm:mt-18 sm:grid-cols-2 sm:gap-22.5"
+					className="mx-auto mt-12 grid min-h-[360px] grid-cols-1 items-center gap-12 text-center sm:mt-18 sm:grid-cols-2 sm:gap-[90px] sm:text-left"
 					id="bm-feature-panel"
 					role="tabpanel"
 					aria-labelledby={`bm-tab-${activeFeature}`}
 				>
-					<div className="bm-feature-art">
+					<div className="relative isolate flex items-center before:absolute before:left-[-24px] before:top-[25%] before:-z-10 before:h-[65%] before:w-[calc(100%+48px)] before:rounded-r-[110px] before:bg-[#5267df] sm:before:left-[-50vw] sm:before:top-[24%] sm:before:h-[70%] sm:before:w-[calc(100%+50vw)] sm:before:rounded-r-[150px]">
 						<img
+							className="relative z-0 w-full"
 							src={`${ASSET_ROOT_BOOKMARK_LANDING_PAGE}/${feature.image}`}
 							alt=""
 						/>
 					</div>
-					<div className="bm-feature-copy max-w-111.25">
+					<div className="max-w-[445px]">
 						<h3 className="mb-5 text-[26px] font-medium sm:text-[28px]">
 							{feature.title}
 						</h3>
@@ -63,7 +64,7 @@ export const Features = (): JSX.Element => {
 							{feature.description}
 						</p>
 						<a
-							className="bm-button bm-button-blue mt-6 inline-flex rounded border-2 border-[#5267df] bg-[#5267df] px-5 py-3 text-sm font-medium text-white shadow-md hover:bg-white hover:text-[#5267df]"
+							className="  mt-6 inline-flex rounded border-2 border-[#5267df] bg-[#5267df] px-5 py-3 text-sm font-medium text-white shadow-md hover:bg-white hover:text-[#5267df]"
 							href="#extensions"
 						>
 							More Info

@@ -10,14 +10,14 @@ interface FundingStatsProps {
 }
 
 export const FundingStats = ({ total, backers, percent }: FundingStatsProps): JSX.Element => (
-	<section className="cf-panel cf-stats mb-6 rounded-[9px] border border-[#f0f0f0] bg-white px-6 py-10 md:px-11" aria-label="Project funding progress">
-		<div className="grid gap-5 md:grid-cols-3 md:gap-0">
-			<div className="cf-stat flex flex-col gap-1 border-b border-[#e6e6e6] pb-5 text-center md:border-b-0 md:border-r md:pb-0 md:text-left md:first:pl-0 md:pl-8"><strong className="text-3xl">${formatMoney(total)}</strong><span className="text-sm text-[#7a7a7a]">of $100,000 backed</span></div>
-			<div className="cf-stat flex flex-col gap-1 border-b border-[#e6e6e6] pb-5 text-center md:border-b-0 md:border-r md:pl-8 md:text-left"><strong className="text-3xl">{formatMoney(backers)}</strong><span className="text-sm text-[#7a7a7a]">total backers</span></div>
-			<div className="cf-stat flex flex-col gap-1 text-center md:pl-8 md:text-left"><strong className="text-3xl">56</strong><span className="text-sm text-[#7a7a7a]">days left</span></div>
+	<section className="mb-6 rounded-[9px] border border-[#f0f0f0] bg-white px-6 py-10 md:px-11" aria-label="Project funding progress">
+	<div className="grid gap-5 md:grid-cols-3 md:gap-0">
+		<div className="flex flex-col gap-1 border-b border-[#e6e6e6] pb-5 text-center md:border-b-0 md:border-r md:pb-0 md:text-left md:first:pl-0 md:pl-8"><strong className="text-3xl">${formatMoney(total)}</strong><span className="text-sm text-[#7a7a7a]">of $100,000 backed</span></div>
+		<div className="flex flex-col gap-1 border-b border-[#e6e6e6] pb-5 text-center md:border-b-0 md:border-r md:pl-8 md:text-left"><strong className="text-3xl">{formatMoney(backers)}</strong><span className="text-sm text-[#7a7a7a]">total backers</span></div>
+		<div className="flex flex-col gap-1 text-center md:pl-8 md:text-left"><strong className="text-3xl">56</strong><span className="text-sm text-[#7a7a7a]">days left</span></div>
 		</div>
 		<svg
-			className="cf-progress mt-8 h-2 w-full overflow-hidden rounded-full"
+			className="mt-8 h-2 w-full overflow-hidden rounded-full"
 			viewBox="0 0 100 8"
 			preserveAspectRatio="none"
 			role="progressbar"

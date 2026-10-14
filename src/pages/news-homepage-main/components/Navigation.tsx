@@ -6,7 +6,7 @@ interface NavigationProps {
 }
 
 export const Navigation = ({ open, onNavigate }: NavigationProps) => (
-	<nav className={`${open ? "absolute right-0 top-0 flex h-screen w-[68%] flex-col gap-6 bg-[#fffdfa] px-6 pt-36 shadow-xl" : "hidden"} news-nav z-20 md:static md:flex md:h-auto md:w-auto md:flex-row md:items-center md:gap-10 md:bg-transparent md:p-0 md:shadow-none`} aria-label="Main">
+	<nav className={`${open ? "absolute right-0 top-0 flex h-screen w-[68%] flex-col gap-6 bg-[#fffdfa] px-6 pt-36 shadow-xl" : "hidden"} z-20 md:static md:flex md:h-auto md:w-auto md:flex-row md:items-center md:gap-10 md:bg-transparent md:p-0 md:shadow-none`} aria-label="Main">
 		{DATA_NEWS_NAVIGATION.map((item) => (
 			<button
 				type="button"
