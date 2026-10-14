@@ -24,13 +24,13 @@ export const Features = (): JSX.Element => {
 					</p>
 				</div>
 				<div
-					className="bm-feature-tabs mx-auto flex max-w-[730px] flex-col border-t border-[#d9dbe2] sm:flex-row sm:border-t-0 sm:border-b"
+					className="bm-feature-tabs mx-auto flex max-w-182.5 flex-col border-t border-[#d9dbe2] sm:flex-row sm:border-t-0 sm:border-b"
 					role="tablist"
 					aria-label="Bookmark features"
 				>
 					{DATA_BOOKMARK_FEATURES.map((item, index) => (
 						<button
-							className="bm-tab flex-1 cursor-pointer border-0 border-b border-[#d9dbe2] bg-transparent px-2.5 py-[17px] text-[15px] text-[#626575] hover:text-[#fa5757] aria-selected:border-b-4 aria-selected:border-[#fa5757] sm:border-b-4 sm:px-3 sm:py-[18px] sm:text-base"
+							className="bm-tab flex-1 cursor-pointer border-0 border-b border-[#d9dbe2] bg-transparent px-2.5 py-4.25 text-[15px] text-[#626575] hover:text-[#fa5757] aria-selected:border-b-4 aria-selected:border-[#fa5757] sm:border-b-4 sm:px-3 sm:py-4.5 sm:text-base"
 							key={item.tab}
 							type="button"
 							role="tab"
@@ -44,7 +44,7 @@ export const Features = (): JSX.Element => {
 					))}
 				</div>
 				<div
-					className="bm-feature mx-auto mt-12 grid min-h-[360px] grid-cols-1 items-center gap-12 text-left sm:mt-[72px] sm:grid-cols-2 sm:gap-[90px]"
+					className="bm-feature mx-auto mt-12 grid min-h-90 grid-cols-1 items-center gap-12 text-left sm:mt-18 sm:grid-cols-2 sm:gap-22.5"
 					id="bm-feature-panel"
 					role="tabpanel"
 					aria-labelledby={`bm-tab-${activeFeature}`}
@@ -55,7 +55,7 @@ export const Features = (): JSX.Element => {
 							alt=""
 						/>
 					</div>
-					<div className="bm-feature-copy max-w-[445px]">
+					<div className="bm-feature-copy max-w-111.25">
 						<h3 className="mb-5 text-[26px] font-medium sm:text-[28px]">
 							{feature.title}
 						</h3>
