@@ -1,0 +1,5 @@
+import type { PropsWithChildren } from "react";
+
+export const Main = ({ children }: PropsWithChildren) => (
+	<main className="hotel-content mx-auto max-w-[1260px] px-5 pb-12 pt-6 md:px-10 md:pt-10" id="stay">{children}</main>
+);
