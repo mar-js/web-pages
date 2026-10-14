@@ -13,7 +13,7 @@ import { Footer, Header, Main, Section } from "./layouts";
 
 export const ManageLandingPage = (): JSX.Element => {
 	const [menuOpen, setMenuOpen] = useState(false);
-	const [activeTestimonial, setActiveTestimonial] = useState(0);
+	const [activeTestimonial, setActiveTestimonial] = useState(1);
 	const [email, setEmail] = useState("");
 	const [formMessage, setFormMessage] = useState("");
 	const [emailInvalid, setEmailInvalid] = useState(false);
@@ -37,7 +37,7 @@ export const ManageLandingPage = (): JSX.Element => {
 		setActiveTestimonial((activeTestimonial + 1) % DATA_MANAGE_TESTIMONIALS.length);
 
 	return (
-		<div className="manage-page min-h-screen overflow-hidden bg-white font-sans text-[#242d52]">
+		<div className="min-h-screen overflow-hidden bg-white bg-[url('/assets/manage-landing-page-master/bg-tablet-pattern.svg')] bg-[position:calc(100%+150px)_-150px] bg-[length:360px_auto] bg-no-repeat font-sans text-[#242d52] md:bg-[position:calc(100%+150px)_-150px] md:bg-[length:700px_auto]">
 			<Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			<Main>
 				<Hero />

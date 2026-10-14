@@ -119,7 +119,7 @@ export const HotelBookingConfirmationPage = (): JSX.Element => {
 	};
 
 	return (
-		<div className="hotel-page min-h-screen bg-[#f7f3eb] font-sans text-[#302b26] md:pl-[260px]">
+		<div className="min-h-screen bg-[#f7f3eb] font-sans text-[#302b26] md:pl-[260px]">
 			<Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} openEditor={openEditor} />
 			<Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			<Main>

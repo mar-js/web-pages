@@ -3,7 +3,7 @@ import { Benefits, Callout, FooterContent, Hero } from "./components";
 import { Footer, Header, Main, Section } from "./layouts";
 
 export const InsureLandingPage = (): JSX.Element => (
-	<div className="insure-page min-h-screen overflow-hidden bg-white font-sans text-[#2b272f]">
+	<div className="min-h-screen overflow-hidden bg-white font-sans text-[#2b272f]">
 		<Header />
 		<Main>
 			<Hero />
