@@ -1,6 +1,6 @@
 import type {
-	BookmarkFeature,
 	BookmarkExtension,
+	BookmarkFeature,
 	BookmarkQuestion,
 	CrowdfundingReward,
 	DataCeoFyloDarkLandingPage,
@@ -27,8 +27,8 @@ import type {
 	SpaceNavigationItem,
 	SpaceTechnology,
 	SpaceTourismPage,
-	UrlShorteningFooterGroup,
 	UrlShorteningFeature,
+	UrlShorteningFooterGroup,
 } from "../global/interfaces";
 
 export const IMG_HERO_PING_COMING_SOON_LANDING_PAGE: string =
@@ -472,8 +472,7 @@ export const DATA_INSURE_SOCIAL_NETWORKS = [
 	"instagram",
 ];
 
-export const ASSET_ROOT_LOOPSTUDIOS =
-	"/assets/loopstudios-landing-page-main";
+export const ASSET_ROOT_LOOPSTUDIOS = "/assets/loopstudios-landing-page-main";
 export const DATA_LOOPSTUDIOS_LINKS = [
 	"About",
 	"Careers",
@@ -833,7 +832,8 @@ export const DATA_SPACE_BACKGROUND_CLASSES: Record<SpaceTourismPage, string> = {
 		"bg-[url('/assets/space-tourism-website-main/technology/background-technology-desktop.jpg')] [@media(max-width:767px)]:bg-[url('/assets/space-tourism-website-main/technology/background-technology-mobile.jpg')] [@media(min-width:768px)_and_(max-width:1199px)]:bg-[url('/assets/space-tourism-website-main/technology/background-technology-tablet.jpg')]",
 };
 
-export const ASSET_ROOT_URL_SHORTENING_API = "/assets/url-shortening-api-master";
+export const ASSET_ROOT_URL_SHORTENING_API =
+	"/assets/url-shortening-api-master";
 export const DATA_URL_SHORTENING_FEATURES: UrlShorteningFeature[] = [
 	{
 		image: "icon-brand-recognition.svg",
