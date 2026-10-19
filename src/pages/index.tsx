@@ -1,8 +1,10 @@
 export { BaseApparelComingSoonPage } from "./base-apparel-coming-soon";
+export { SlowLivingInteriorsPage } from "./slow-living-interiors-landing-page";
 export { BookmarkLandingPage } from "./bookmark-landing-page";
 export { ClipboardLandingPage } from "./clipboard-landing-page";
 export { CrowdfundingProductPage } from "./crowdfunding-product-page";
 export { DigitalBankLandingPage } from "./digitalbank-landing-page";
+export { CreativeStudioLandingPage } from "./creative-studio-landing-page";
 export { FyloDarkLandingPage } from "./fylo-dark-landing-page";
 export { GridLandingPage } from "./grid-landing-page-main";
 export { HotelBookingConfirmationPage } from "./hotel-booking-confirmation-page-main";
@@ -15,6 +17,7 @@ export { NotificationsPage } from "./notifications-page-main";
 export { NotFoundPage } from "./not-found-page";
 export { PingComingSoonLandingPage } from "./ping-coming-soon-landing-page";
 export { RecipePage } from "./recipe-page-main";
+export { NatureEscapesLandingPage } from "./nature-escapes-landing-page";
 export { RoomHomepage } from "./room-homepage";
 export { SpaceTourismWebsite } from "./space-tourism-website";
 export { UrlShorteningApi } from "./url-shortening-api";
