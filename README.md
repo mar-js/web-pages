@@ -12,10 +12,12 @@ Desde la página de inicio (`/`) se puede acceder a estos ejemplos:
 | --- | --- |
 | Base Apparel Coming Soon | `/pages/base-apparel-coming-soon` |
 | Bookmark Landing Page | `/pages/bookmark-landing-page` |
+| Slow House — Interior Design | `/pages/slow-living-interiors` |
 | Clipboard Landing Page | `/pages/clipboard-landing-page` |
 | Crowdfunding Product Page | `/pages/crowdfunding-product-page` |
 | Digital Bank Landing Page | `/pages/digitalbank-landing-page` |
 | Fylo Dark Landing Page | `/pages/fylo-dark-landing-page` |
+| Forma Studio — Creative Studio | `/pages/creative-studio` |
 | Grid Landing Page | `/pages/grid-landing-page` |
 | Hotel Booking Confirmation Page | `/pages/hotel-booking-confirmation-page` |
 | Huddle Landing Page | `/pages/huddle-landing-page` |
@@ -27,10 +29,11 @@ Desde la página de inicio (`/`) se puede acceder a estos ejemplos:
 | Ping Coming Soon Landing Page | `/pages/ping-coming-soon-landing-page` |
 | Recipe Page | `/pages/recipe-page` |
 | Room Homepage | `/pages/room-homepage` |
+| Ruta Escapes — Nature Getaways | `/pages/nature-escapes` |
 | Space Tourism Website | `/pages/space-tourism-website` |
 | URL Shortening API | `/pages/url-shortening-api` |
 
-Las páginas incluyen interacciones de interfaz como menús responsive, formularios, pestañas, acordeones, controles de navegación y estados de confirmación. Son demostraciones frontend; las acciones que requieren un servicio externo no se presentan como operaciones reales de backend.
+Pages include interface interactions such as responsive menus, forms, tabs, accordions, navigation controls, and confirmation states. These are frontend demonstrations; actions that require an external service are not presented as real backend operations.
 
 ## Tecnologías
 
