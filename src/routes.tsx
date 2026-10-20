@@ -1,5 +1,7 @@
 import type { AppRoute } from "./global/interfaces";
 import {
+	AlpineRetreatLandingPage,
+	ArtisanCoffeeLandingPage,
 	BaseApparelComingSoonPage,
 	BookmarkLandingPage,
 	ClipboardLandingPage,
@@ -29,6 +31,12 @@ import {
 export const routes: AppRoute[] = [
 	{ path: "/", name: "Home", element: <WebPages />, exact: true },
 	{
+		path: "/pages/alpine-retreat",
+		name: "Alba Lodge — Mountain Retreat",
+		element: <AlpineRetreatLandingPage />,
+		exact: true,
+	},
+	{
 		path: "/pages/base-apparel-coming-soon",
 		name: "Base Apparel Coming Soon",
 		element: <BaseApparelComingSoonPage />,
@@ -44,6 +52,12 @@ export const routes: AppRoute[] = [
 		path: "/pages/slow-living-interiors",
 		name: "Slow House — Interior Design",
 		element: <SlowLivingInteriorsPage />,
+		exact: true,
+	},
+	{
+		path: "/pages/artisan-coffee",
+		name: "Bruma Café — Artisan Coffee",
+		element: <ArtisanCoffeeLandingPage />,
 		exact: true,
 	},
 	{
