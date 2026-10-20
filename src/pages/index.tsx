@@ -1,9 +1,11 @@
 export { BaseApparelComingSoonPage } from "./base-apparel-coming-soon";
 export { SlowLivingInteriorsPage } from "./slow-living-interiors-landing-page";
+export { AlpineRetreatLandingPage } from "./alpine-retreat-landing-page";
 export { BookmarkLandingPage } from "./bookmark-landing-page";
 export { ClipboardLandingPage } from "./clipboard-landing-page";
 export { CrowdfundingProductPage } from "./crowdfunding-product-page";
 export { DigitalBankLandingPage } from "./digitalbank-landing-page";
+export { ArtisanCoffeeLandingPage } from "./artisan-coffee-landing-page";
 export { CreativeStudioLandingPage } from "./creative-studio-landing-page";
 export { FyloDarkLandingPage } from "./fylo-dark-landing-page";
 export { GridLandingPage } from "./grid-landing-page-main";
