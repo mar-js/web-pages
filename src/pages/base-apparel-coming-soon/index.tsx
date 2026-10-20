@@ -20,7 +20,7 @@ export const BaseApparelComingSoonPage = (): JSX.Element => (
 						alt="Model wearing a coral blouse in a fashion studio"
 					/>
 				</picture>
-				<main className="flex grow items-center px-8 py-14 text-center lg:px-0 lg:py-16 lg:pl-[20%] lg:pr-16 lg:text-left">
+				<main className="flex grow justify-center lg:justify-start items-center px-8 py-14 text-center lg:px-0 lg:py-16 lg:pl-[20%] lg:pr-16 lg:text-left">
 					<Hero />
 				</main>
 			</div>
