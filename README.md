@@ -11,6 +11,8 @@ Desde la página de inicio (`/`) se puede acceder a estos ejemplos:
 | Proyecto | Ruta |
 | --- | --- |
 | Base Apparel Coming Soon | `/pages/base-apparel-coming-soon` |
+| Alba Lodge — Mountain Retreat | `/pages/alpine-retreat` |
+| Bruma Café — Artisan Coffee | `/pages/artisan-coffee` |
 | Bookmark Landing Page | `/pages/bookmark-landing-page` |
 | Slow House — Interior Design | `/pages/slow-living-interiors` |
 | Clipboard Landing Page | `/pages/clipboard-landing-page` |
