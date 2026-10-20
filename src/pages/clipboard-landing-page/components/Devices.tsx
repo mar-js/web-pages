@@ -16,7 +16,7 @@ export const Devices = (): JSX.Element => (
 		<Image
 			path={IMG_DEVICES_CLIPBOARD_LANDING_PAGE}
 			alt="Devices"
-			className="max-w-180"
+			className="min-w-62"
 		/>
 	</div>
 );

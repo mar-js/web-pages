@@ -21,7 +21,7 @@ export const Snippets = (): JSX.Element => (
 			<Image
 				path={IMG_COMPUTER_CLIPBOARD_LANDING_PAGE}
 				alt="Computer"
-				className="max-w-140 lg:-ml-24"
+				className="min-w-62"
 			/>
 			<div className="flex flex-col gap-10 text-center lg:text-left">
 				{DATA_SNIPPETS_CLIPBOARD_LANDING_PAGE.map((snippet) => (
